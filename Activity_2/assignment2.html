@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Assignment</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="#" method="post">
+        <label for="name">Name: <input type="text" name="name" id="name"></label>
+        <label for="email">Email: <input type="text" name="email" id="email"></label>
+        <label for="message">Message:<textarea name="message" id="message" cols="30" rows="10"></textarea></label>
+        <input type="submit" value="Contact Us">
+    </form>
+
+    <h1>Login</h1>
+    <form action="#" method="post">
+        <label for="username">Username:<input type="text" name="username" id="username"></label>
+        <label for="password">Password:<input type="password" name="password" id="password"></label>
+        <input type="submit" value="Login">
+    </form>
+
+    <h1>Survey</h1>
+    <form action="#" method="post">
+        <label for="name">Name:<input type="text" name="name" id="name"></label>
+        <label for="age">Age:<input type="number" name="age" id="age"></label>
+        <label for="gender">Gender:
+            <input type="radio" name="gender" id="male"><label for="male">Male</label></input>
+            <input type="radio" name="gender" id="female"><label for="female">Female</label></input>
+            <input type="radio" name="gender" id="other"><label for="other">Other</label></input>
+        </label>
+        <label for="languages">Which programming languages do you know?
+            <input type="checkbox" name="languages" id="html"><label for="html">HTML</label></input>
+            <input type="checkbox" name="languages" id="css"><label for="css">CSS</label></input>
+            <input type="checkbox" name="languages" id="javascript"><label for="javascript">Javascript</label></input>
+            <input type="checkbox" name="languages" id="php"><label for="php">PHP</label></input>
+            <input type="checkbox" name="languages" id="java"><label for="java">Java</label></input>
+            <input type="checkbox" name="languages" id="cpp"><label for="cpp">C++</label></input>
+            <input type="checkbox" name="languages" id="csharp"><label for="csharp">C#</label></input>
+            <input type="checkbox" name="languages" id="c"><label for="c">C</label></input>
+            <input type="checkbox" name="languages" id="python"><label for="python">Python</label></input>
+            <input type="checkbox" name="languages" id="ruby"><label for="ruby">Ruby</label></input>
+        </label>
+        <label for="comments">Comments:<textarea name="comments" id="comments" cols="30" rows="10"></textarea></label>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
