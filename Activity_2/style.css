@@ -1,0 +1,13 @@
+
+input, textarea {
+    display: block;
+}
+
+* {
+    padding: 5px;
+    margin: 5px;
+}
+
+.displayBlock {
+    display: block;
+}
